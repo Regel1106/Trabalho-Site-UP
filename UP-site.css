@@ -12,7 +12,7 @@ body{
 .civicomilitar img {
     position: absolute; /*vai fazer a imagem ignorar o fluxo do texto (se nao colocar a imagem vai ficar em baixo do texto)*/
     top: -205px; /* altura da imagem no site*/
-    right: 10px; /* distancia da margem do site*/
+    right: -7%; /* distancia da margem do site*/
     width: 500px; /* vai definir o tamanho da imagem */
     height: auto; /* o auto vai acompanhar o tamanho da imagem */
 }
