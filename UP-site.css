@@ -1,23 +1,73 @@
 body{
-    background-color: #243040;/*vai mudar a cor de fundo para um "azul" da tematica do civico militar*/
-    color: white;/*vai mudar a cor das letras para branco*/
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*vai mudar a fonte das letras*/
-    text-align: center;/*vai centralizar a escrita do texto*/
-    font-size: 110%;/*vai aumentar o tamanho da escrita do texto*/
+    background-color: #243040;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 110%;
 }
 .civicomilitar {
-    position: relative;/*vai fazer eu poder escolher a altura da imagem*/
+    position: relative;
 }
 
 .civicomilitar img {
-    position: absolute; /*vai fazer a imagem ignorar o fluxo do texto (se nao colocar a imagem vai ficar em baixo do texto)*/
-    top: -205px; /* altura da imagem no site*/
-    right: -7%; /* distancia da margem do site*/
-    width: 500px; /* vai definir o tamanho da imagem */
-    height: auto; /* o auto vai acompanhar o tamanho da imagem */
+    position: absolute;
+    top: -205px;
+    right: -7%;
+    width: 500px;
+    height: auto;
 }
 
-h1{
-    text-align: center;/*vai centralizar o titulo do site*/
-    background-color: #5D733D;/*vai deixar a linha do titulo verde na tematica do civico militar*/
+.escola {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.escola img {
+    width: 70%;
+    height: auto;
+    border: 3px solid black;
+
+}
+.luciana {
+    display: flex;
+    text-align: left;
+}
+
+.luciana img {
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+
+.caracter-luciana {
+        color: white;
+    font-size: 120%;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.sandra {
+    display: flex;
+    text-align: left;
+}
+
+.sandra img {
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+
+.caracter-sandra {
+        color: white;
+    font-size: 120%;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.alunos-destaques {
+    text-align: left;
+}
+h1,h3,h4{
+    text-align: center;
+    background-color: #5D733D;
 }
